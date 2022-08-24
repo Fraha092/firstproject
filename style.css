@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+.container{
+    margin: auto;
+    overflow: hidden;
+    background-color: rgb(212, 179, 179);
+    font-family: 'Lato', sans-serif;
+}
+.header{
+    
+    display: flex;
+    background-color: antiquewhite;
+}
+.header .content1{
+    width: 80%;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.header .content1 h1,h4{
+    margin: 0;
+    padding: 0;
+}
+ .hr{
+    color: green;
+}
+.header .content2 img{
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    height:300 ;
+    width: 300;
+    ;
+}
+
+.mdream  {
+    display: flex;
+}
+ .mdream .dream1 img{
+    margin-left: 50px;
+    margin-right: 20px;
+    display: inline;
+    height: 300px;
+    width: 300px;
+
+}
+.dream2 h2{
+    text-align: right;
+}
+.mdream2{
+    display: flex;
+}
+.mdream2 .dream2 h2{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.mdream3 img{
+    margin-right: 50px;
+    display: inline;
+    height: 300px;
+    width: 300px;
+
+}
+.dream2 h2{
+    text-align: left;
+}
+.experience1{
+    display: flex;
+}
+.experience1 .b h2{
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.experience1 .b blockquote{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.experience1 .bb img{
+    margin-right: 0px;
+    margin-bottom: 50px;
+    padding: 60px;
+}
+.achievements{
+    display: flex;
+}
+.achievements .a{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+.achievements .a blockquote{
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.achievements .aa img{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.achievements .a h2{
+    margin-top: 70px;
+}
+.footer{
+    background: #797979;
+    text-align: center;
+    padding: 10px;
+}
